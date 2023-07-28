@@ -1,7 +1,7 @@
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import { imagesTask, imageOne, root_image } from "../assets";
+import { imagesTask, taskManagerMov } from "../assets";
 import Carousel from "./Carousel";
 
 export default function Project() {
@@ -80,16 +80,29 @@ export default function Project() {
                 to the bottom in green.
               </p>
             </motion.p>
-            <div className="max-w-md overflow-hidden justify-center justify-self-center mx-auto">
+            <p className="py-4  text-secondary ">
+              As this project is for profit purposes, the source code is in
+              private mode on Github.
+            </p>
+            <div className="max-w-md overflow-hidden justify-center justify-self-center mx-auto py-4">
               <Carousel>
-                {imagesTask.map((image) => (
-                  <img
-                    src={image}
-                    alt="Images of the project task manager"
-                    key={image}
-                    className="rounded-2xl w-screen "
-                  />
-                ))}
+                {[
+                  <video
+                    src={taskManagerMov}
+                    key={taskManagerMov}
+                    autoPlay
+                    muted
+                    loop
+                  />,
+                  ...imagesTask.map((image) => (
+                    <img
+                      src={image}
+                      alt="Images of the project task manager"
+                      key={image}
+                      className="rounded-2xl w-screen "
+                    />
+                  )),
+                ]}
               </Carousel>
             </div>
           </div>

@@ -27,13 +27,13 @@ import logojmk from "./company/logojk.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import imageOne from "./project-one/imageOne.jpg";
 import imageTree from "./project-one/imageTree.jpg";
 import imageTwo from "./project-one/imageTwo.jpg";
-import imageFive from "./project-one/imageFive.jpg";
-import root_image from "./project-one/imageFour.png";
 
-const imagesTask = [root_image, imageTree, imageTwo];
+import root_image from "./project-one/imageFour.png";
+import taskManagerMov from "./project-one/taskManagerMov.mp4";
+
+const imagesTask = [imageTree, imageTwo];
 
 export {
   logojk,
@@ -63,6 +63,6 @@ export {
   jobit,
   tripguide,
   imagesTask,
-  imageOne,
   root_image,
+  taskManagerMov,
 };
