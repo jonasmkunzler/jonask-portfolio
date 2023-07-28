@@ -27,9 +27,8 @@ import logojmk from "./company/logojk.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import imageTree from "./project-one/imageTree.jpg";
 import imageTwo from "./project-one/imageTwo.jpg";
-
+import imageTree from "./project-one/imageTree.jpg";
 import root_image from "./project-one/imageFour.png";
 import taskManagerMov from "./project-one/taskManagerMov.mp4";
 
