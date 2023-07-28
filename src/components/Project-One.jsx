@@ -16,7 +16,7 @@ export default function Project() {
             <p className={styles.sectionSubTextVarTwo}>Motivation:</p>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className={styles.heroSubText}
+              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide my-4 text-left"
             >
               In the city of Vera Cruz RS every year there is a gymkhana between
               teams, which lasts 48 hours uninterrupted with tasks. Due to its
@@ -29,7 +29,7 @@ export default function Project() {
             <p className={styles.sectionSubTextVarTwo}>Work:</p>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className={styles.heroSubText}
+              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left my-4"
             >
               Assist in the organization and progress of tasks during the
               gymkhana. Provide all members with a visual way of tracking the
@@ -38,7 +38,7 @@ export default function Project() {
             <p className={styles.sectionSubTextVarTwo}>Action:</p>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className={styles.heroSubText}
+              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left my-4"
             >
               A web application was developed in the form of SPA (Single Page
               Application) where the backend is decoupled from the frontend.
@@ -58,7 +58,7 @@ export default function Project() {
             <p className={styles.sectionSubTextVarTwo}>Result:</p>
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
-              className={styles.heroSubText}
+              className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left my-4"
             >
               From the 26th to the 28th of May 2023, the project was put into
               practice. Which was installed in a projector inside the
@@ -80,7 +80,7 @@ export default function Project() {
                 to the bottom in green.
               </p>
             </motion.p>
-            <p className={styles.heroSubText}>
+            <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left py-4">
               As this project is for profit purposes, the source code is in
               private mode on Github.
             </p>
@@ -99,7 +99,7 @@ export default function Project() {
                       src={image}
                       alt="Images of the project task manager"
                       key={image}
-                      className="rounded-2xl w-screen"
+                      className="rounded-2xl w-screen "
                     />
                   )),
                 ]}

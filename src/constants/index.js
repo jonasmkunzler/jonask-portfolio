@@ -169,7 +169,7 @@ const projects = [
       },
     ],
     image: root_image,
-    source_code_link: "project-one",
+    source_code_link: "https://jonask-portfolio.vercel.app/taskmanager",
   },
 ];
 
