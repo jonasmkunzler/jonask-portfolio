@@ -1,7 +1,8 @@
 import { styles } from "../styles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
-import { imagesTask, taskManagerMov } from "../assets";
+import { imagesTask } from "../assets";
+//import { taskManagerMov } from "../assets";
 import Carousel from "./Carousel";
 
 export default function Project() {
@@ -87,7 +88,6 @@ export default function Project() {
             <div className="max-w-md overflow-hidden justify-center justify-self-center mx-auto py-4">
               <Carousel>
                 {[
-                  <video src={taskManagerMov} autoPlay muted loop />,
                   ...imagesTask.map((image) => (
                     <img
                       src={image}
