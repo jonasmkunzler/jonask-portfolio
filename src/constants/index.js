@@ -167,7 +167,7 @@ const projects = [
       },
     ],
     image: root_image,
-    source_code_link: "/taskmanager",
+    source_code_link: "taskmanager",
   },
 ];
 

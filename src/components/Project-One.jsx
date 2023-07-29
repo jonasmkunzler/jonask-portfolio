@@ -87,13 +87,7 @@ export default function Project() {
             <div className="max-w-md overflow-hidden justify-center justify-self-center mx-auto py-4">
               <Carousel>
                 {[
-                  <video
-                    src={taskManagerMov}
-                    key={taskManagerMov}
-                    autoPlay
-                    muted
-                    loop
-                  />,
+                  <video src={taskManagerMov} autoPlay muted loop />,
                   ...imagesTask.map((image) => (
                     <img
                       src={image}
