@@ -12,8 +12,6 @@ import {
   git,
   docker,
   root_image,
-  jobit,
-  tripguide,
   logojmk,
   resultmais,
 } from "../assets";

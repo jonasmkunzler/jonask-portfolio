@@ -24,11 +24,9 @@ import threejs from "./tech/threejs.svg";
 
 import resultmais from "./company/resultmais.png";
 import logojmk from "./company/logojk.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
-import imageTwo from "./project-one/imageTwo.jpg";
-import imageTree from "./project-one/imageTree.jpg";
+import imageTwo from "./project-one/imageTwo.jpeg";
+import imageTree from "./project-one/imageTree.jpeg";
 import root_image from "./project-one/imageFour.png";
 import taskManagerMov from "./project-one/taskManagerMov.mp4";
 
@@ -59,8 +57,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  jobit,
-  tripguide,
   imagesTask,
   root_image,
   taskManagerMov,
