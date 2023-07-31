@@ -28,7 +28,7 @@ import logojmk from "./company/logojk.png";
 import imageTwo from "./project-one/imageTwo.jpeg";
 import imageTree from "./project-one/imageTree.jpeg";
 import root_image from "./project-one/imageFour.png";
-//import taskManagerMov from "./project-one/taskManagerMov.mp4";
+import taskManagerMov from "./project-one/taskManagerMov.mp4";
 
 const imagesTask = [imageTree, imageTwo];
 
@@ -59,4 +59,5 @@ export {
   threejs,
   imagesTask,
   root_image,
+  taskManagerMov,
 };
