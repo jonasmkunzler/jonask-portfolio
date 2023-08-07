@@ -85,7 +85,7 @@ export default function Project() {
               As this project is for profit purposes, the source code is in
               private mode on Github.
             </p>
-            <div className="max-w-md overflow-hidden justify-center justify-self-center mx-auto py-4">
+            <div className="max-w-[600px] h-[880px] w-full overflow-hidden justify-center justify-self-center duration-500 mx-auto py-4">
               <Carousel>
                 {[
                   <video src={taskManagerMov} autoPlay muted loop />,
