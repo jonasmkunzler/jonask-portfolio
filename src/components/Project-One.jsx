@@ -1,9 +1,9 @@
-import { styles } from "../styles";
-import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
-import { imagesTask } from "../assets";
-import { taskManagerMov } from "../assets";
-import Carousel from "./Carousel";
+import { styles } from '../styles'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../utils/motion'
+import { imagesTask } from '../assets'
+import { taskManagerMov } from '../assets'
+import Carousel from './Carousel'
 
 export default function Project() {
   return (
@@ -11,12 +11,12 @@ export default function Project() {
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <section className="min-h-screen">
           <div className="grid place-content-center items-center py-4">
-            <motion.div variants={fadeIn("up", "spring", 0.75)}>
+            <motion.div variants={fadeIn('up', 'spring', 0.75)}>
               <h2 className={styles.sectionHeadText}>Task Manager</h2>
             </motion.div>
             <p className={styles.sectionSubTextVarTwo}>Motivation:</p>
             <motion.p
-              variants={fadeIn("", "", 0.1, 1)}
+              variants={fadeIn('', '', 0.1, 1)}
               className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide my-4 text-left"
             >
               In the city of Vera Cruz RS every year there is a gymkhana between
@@ -29,7 +29,7 @@ export default function Project() {
             </motion.p>
             <p className={styles.sectionSubTextVarTwo}>Work:</p>
             <motion.p
-              variants={fadeIn("", "", 0.1, 1)}
+              variants={fadeIn('', '', 0.1, 1)}
               className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left my-4"
             >
               Assist in the organization and progress of tasks during the
@@ -38,16 +38,17 @@ export default function Project() {
             </motion.p>
             <p className={styles.sectionSubTextVarTwo}>Action:</p>
             <motion.p
-              variants={fadeIn("", "", 0.1, 1)}
+              variants={fadeIn('', '', 0.1, 1)}
               className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left my-4"
             >
               A web application was developed in the form of SPA (Single Page
               Application) where the backend is decoupled from the frontend.
-              Using NodeJS + ReactJS, the server is hosted at Cyclic, the
-              frontend is at Vercel with redundancy at Netlify. As we didn't
-              need Search Engine Optimization (SEO) we chose to use ReactJS,
-              knowing that if necessary in the future we can scale to the mobile
-              version of React Native, as the routes are already ready.
+              Using NodeJS + ReactJS, the server is hosted at Cyclic with
+              redundancy at Heroku, the frontend is at Vercel with redundancy at
+              Netlify. As we didn't need Search Engine Optimization (SEO) we
+              chose to use ReactJS, knowing that if necessary in the future we
+              can scale to the mobile version of React Native, as the routes are
+              already ready.
               <p>
                 For application security, CORS policies were implemented, route
                 control protected through JWT token and access blocking by IP.
@@ -58,7 +59,7 @@ export default function Project() {
             </motion.p>
             <p className={styles.sectionSubTextVarTwo}>Result:</p>
             <motion.p
-              variants={fadeIn("", "", 0.1, 1)}
+              variants={fadeIn('', '', 0.1, 1)}
               className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left my-4"
             >
               From the 26th to the 28th of May 2023, the project was put into
@@ -96,7 +97,7 @@ export default function Project() {
                       key={image}
                       className="rounded-2xl w-screen "
                     />
-                  )),
+                  ))
                 ]}
               </Carousel>
             </div>
@@ -104,5 +105,5 @@ export default function Project() {
         </section>
       </div>
     </div>
-  );
+  )
 }
