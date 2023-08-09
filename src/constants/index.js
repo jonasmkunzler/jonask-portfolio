@@ -119,25 +119,25 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Jonas proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
+      'We had a huge gain in organization with the use of the application developed by Jonas, which certainly helped us to reach victory in the 2023 edition.',
+    name: 'Igor',
+    designation: 'Leader',
+    company: 'Selvagens Team',
     image: 'https://randomuser.me/api/portraits/women/4.jpg'
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Jonas does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
+    name: 'Lu',
+    designation: 'Leader',
+    company: 'Box 360 Team',
     image: 'https://randomuser.me/api/portraits/men/5.jpg'
   },
   {
     testimonial:
       "After Jonas optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
+    name: 'Lisa',
+    designation: 'Leader',
     company: '456 Enterprises',
     image: 'https://randomuser.me/api/portraits/women/6.jpg'
   }
