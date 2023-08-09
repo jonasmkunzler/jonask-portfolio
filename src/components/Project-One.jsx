@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { styles } from '../styles'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../utils/motion'
@@ -6,8 +7,11 @@ import { taskManagerMov } from '../assets'
 import Carousel from './Carousel'
 
 export default function Project() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
-    <div className="">
+    <div className="" id="mainTaskManager">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <section className="min-h-screen">
           <div className="grid place-content-center items-center py-4">
