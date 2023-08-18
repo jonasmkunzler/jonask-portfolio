@@ -110,7 +110,7 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'February 2017 - March 2022',
     points: [
-      'Customer service via telephone and remote access, answering questions and correcting system failures.',
+      'Provided customer support throught telephone and remote access, effectively addressing inquiries, troubleshooting technical issues, and ensuring timely issue resolution.',
       'After the programmers fixed the flaw, we tested the fix outside of the production environment and then it was shown and passed on to the customer.'
     ]
   }
