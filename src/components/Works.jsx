@@ -1,12 +1,12 @@
-import React from "react";
-import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import { styles } from "../styles";
-import { externalLink } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import React from 'react'
+import { Tilt } from 'react-tilt'
+import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import { styles } from '../styles'
+import { externalLink } from '../assets'
+import { SectionWrapper } from '../hoc'
+import { projects } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
 
 const ProjectCard = ({
   index,
@@ -14,58 +14,60 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
+  source_code_link
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 450
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
+        <Link to={source_code_link}>
+          <div className="relative w-full h-[230px]">
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <Link
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-              to={source_code_link}
-            >
-              <img
-                src={externalLink}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </Link>
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <Link
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                to={source_code_link}
+              >
+                <img
+                  src={externalLink}
+                  alt="source code"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </Link>
+            </div>
           </div>
-        </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
-        </div>
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+        </Link>
       </Tilt>
     </motion.div>
-  );
-};
+  )
+}
 
 const Works = () => {
   return (
@@ -77,7 +79,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Below I show some of my projects, I'm constantly evolving, so if you
@@ -92,7 +94,7 @@ const Works = () => {
         ))}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, '')
