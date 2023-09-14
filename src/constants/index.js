@@ -172,10 +172,11 @@ const projects = [
   },
   {
     name: 'HR Ecommerce',
-    description: 'Work in progress...',
+    description:
+      'It will be an e-commerce platform with payment integration and shipping calculation. Under Construction...',
     tags: [
       {
-        name: 'nextjs',
+        name: 'nextjs 13.4',
         color: 'blue-text-gradient'
       },
       {
@@ -187,8 +188,12 @@ const projects = [
         color: 'red-text-gradient'
       },
       {
-        name: 'Tailwind CSS',
+        name: 'tailwindcss',
         color: 'pink-text-gradient'
+      },
+      {
+        name: 'Firebase',
+        color: 'blue-text-gradient'
       }
     ],
     image: root_image_project_sec,
