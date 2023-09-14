@@ -11,7 +11,8 @@ import {
   mongodb,
   git,
   docker,
-  root_image,
+  root_image_project_one,
+  root_image_project_sec,
   logojmk,
   resultmais
 } from '../assets'
@@ -154,7 +155,7 @@ const projects = [
         color: 'blue-text-gradient'
       },
       {
-        name: 'node',
+        name: 'nodejs',
         color: 'green-text-gradient'
       },
       {
@@ -166,8 +167,32 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: root_image,
+    image: root_image_project_one,
     source_code_link: '/taskmanager'
+  },
+  {
+    name: 'HR Ecommerce',
+    description: 'Work in progress...',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient'
+      },
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient'
+      },
+      {
+        name: 'mongodb',
+        color: 'red-text-gradient'
+      },
+      {
+        name: 'Tailwind CSS',
+        color: 'pink-text-gradient'
+      }
+    ],
+    image: root_image_project_sec,
+    source_code_link: 'https://hr-ecommerce.vercel.app/'
   }
 ]
 
