@@ -5,6 +5,7 @@ import { fadeIn } from '../utils/motion'
 import { imagesTask } from '../assets'
 import { taskManagerMov } from '../assets'
 import Carousel from './Carousel'
+import { Link } from 'react-router-dom'
 
 export default function Project() {
   useEffect(() => {
@@ -105,6 +106,12 @@ export default function Project() {
                 ]}
               </Carousel>
             </div>
+            <Link
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+              to="/"
+            >
+              Back to Portfolio
+            </Link>
           </div>
         </section>
       </div>

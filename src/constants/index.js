@@ -34,7 +34,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
+    title: 'Fully Responsive',
     icon: web
   },
   {
@@ -192,7 +192,7 @@ const projects = [
         color: 'pink-text-gradient'
       },
       {
-        name: 'Firebase',
+        name: 'firebase',
         color: 'blue-text-gradient'
       }
     ],
