@@ -17,6 +17,7 @@ Here are the technologies used in this project.
 - Tailwind CSS
 - Vite
 - Three
+- EmailJS
 
 ## Services Used
 
