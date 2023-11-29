@@ -1,9 +1,9 @@
-![Logo of the project](https://github.com/Lucasdfg07/Evernote-clone-web/blob/master/src/assets/images/logo.png)
+![Logo of the project](https://github.com/jonasmkunzler/jonask-portfolio/blob/master/src/images/Logo%20JK%20Black-White.png) #WEB DEVELOPER
 
 ## My Portfolio
 
 This is an application made with React + Vite.
-![Principal Image](https://github.com/Lucasdfg07/Evernote-clone-web/blob/master/src/assets/images/presentation.png)
+![Principal Image](https://github.com/jonasmkunzler/jonask-portfolio/blob/master/src/images/previewPortfolio.png)
 
 ## Technology
 
