@@ -1,6 +1,4 @@
-![Logo of the project](https://github.com/jonasmkunzler/jonask-portfolio/blob/master/src/images/Logo%20JK%20Black-White.png) #WEB DEVELOPER
-
-## My Portfolio
+# My Portfolio
 
 This is an application made with React + Vite.
 ![Principal Image](https://github.com/jonasmkunzler/jonask-portfolio/blob/master/src/images/previewPortfolio.png)
