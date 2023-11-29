@@ -27,7 +27,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <img src={thumbnailImage} alt="Thumbnail" />
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+      <img src={thumbnailImage} alt="Thumbnail" />
+    </RouterProvider>
   </React.StrictMode>
 )
