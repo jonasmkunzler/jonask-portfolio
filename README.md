@@ -30,13 +30,15 @@ Here are the technologies used in this project.
   - Git
   - NPM
 
-- To clone the project:
+- To clone and run the project:
 
   > $ git clone https://github.com/jonasmkunzler/jonask-portfolio
 
-- To run the project:
+  > $ cd jonask-portfolio
 
-  > $ npm start
+  > $ npm i
+
+  > $ npm run dev
 
 ## Links
 
