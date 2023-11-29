@@ -15,7 +15,7 @@ export default function Project() {
     <div className="" id="mainTaskManager">
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         <section className="min-h-screen">
-          <div className="grid place-content-center items-center py-4">
+          <div className="grid place-content-center items-center py-8">
             <motion.div variants={fadeIn('up', 'spring', 0.75)}>
               <h2 className={styles.sectionHeadText}>Task Manager</h2>
             </motion.div>
@@ -87,10 +87,6 @@ export default function Project() {
                 to the bottom in green.
               </p>
             </motion.p>
-            <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] tracking-wide text-left py-4">
-              As this project is for profit purposes, the source code is in
-              private mode on Github.
-            </p>
             <div className="max-w-[600px] h-[880px] w-full overflow-hidden justify-center justify-self-center duration-500 mx-auto py-4">
               <Carousel>
                 {[

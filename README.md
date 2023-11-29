@@ -1,6 +1,10 @@
 # My Portfolio
 
 This is an application made with React + Vite.
+
+Link to portfolio:
+https://jonask-portfolio.vercel.app/
+
 ![Principal Image](https://github.com/jonasmkunzler/jonask-portfolio/blob/master/src/images/previewPortfolio.png)
 
 ## Technology
@@ -51,7 +55,3 @@ Here are the technologies used in this project.
 
 Please follow github and join us!
 Thanks to visiting me and good coding!
-
-Online link to portfolio:
-
-https://jonask-portfolio.vercel.app/

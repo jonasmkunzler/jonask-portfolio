@@ -2,13 +2,12 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
-  StarsCanvas,
-} from "./components";
+  StarsCanvas
+} from './components'
 
 const App = () => {
   return (
@@ -22,14 +21,13 @@ const App = () => {
         <Experience />
         <Tech />
         <Works />
-        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
