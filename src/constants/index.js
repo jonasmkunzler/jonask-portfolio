@@ -104,15 +104,17 @@ const experiences = [
     ]
   },
   {
-    title: 'Technical Support',
+    title: 'IT Analyst',
     company_name: 'Result Mais Sistemas',
     icon: resultmais,
     site: 'http://www.resultmais.com',
     iconBg: '#E6DEDD',
     date: 'February 2017 - March 2022',
     points: [
-      'Provided customer support throught telephone and remote access, effectively addressing inquiries, troubleshooting technical issues, and ensuring timely issue resolution.',
-      'After the programmers fixed the flaw, we tested the fix outside of the production environment and then it was shown and passed on to the customer.'
+      'Implemented and monitored integrations with other systems.',
+      'Interacted with companies to understand their processes, business requirements, and integrated them into the ERP workflow.',
+      'Conducted meetings with the business team to design and implement system modifications.',
+      'Facilitated mediation in accounting-related issues between clients and the accounting office.'
     ]
   }
 ]
