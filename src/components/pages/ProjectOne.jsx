@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
-import { styles } from '../styles'
+import { styles } from '../../styles'
 import { motion } from 'framer-motion'
-import { fadeIn } from '../utils/motion'
-import { imagesTask } from '../assets'
-import { taskManagerMov } from '../assets'
-import Carousel from './Carousel'
+import { fadeIn } from '../../utils/motion'
+import { imagesTask } from '../../assets'
+import { taskManagerMov } from '../../assets'
+import Carousel from '../Carousel'
 import { Link } from 'react-router-dom'
 
 export default function Project() {

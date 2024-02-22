@@ -1,17 +1,19 @@
+import './index.css'
+import App from './App'
 import React from 'react'
+import Project from './components/pages/ProjectOne'
 import thumbnailImage from './images/thumbnails/thumb.png'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import App from './App'
-import './index.css'
-import Project from './components/ProjectOne'
+import { Maintenance } from './components/pages/Maintenance'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: (
       <>
-        <App />
+        <Maintenance />
+        {/* <App /> */}
       </>
     )
   },
